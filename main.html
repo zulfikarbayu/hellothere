@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .yes-button {
+      background-color: #4caf50;
+      color: #fff;
+    }
+
+    .no-button {
+      background-color: #f44336;
+      color: #fff;
+    }
+
+    button:hover {
+      filter: brightness(90%);
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Would you do me the incredible honor of being my beloved?</h1>
+    <p>Hello, Sophia. Our moments together have been truly delightful, and I find myself captivated by your presence. I'm wondering if you would consider being more than just a cherished companion and become my girlfriend?</p>
+    <img src="images.jpg" alt="Your Profile Picture" class="profile-pic">
+    <div class="button-container">
+      <button class="yes-button" onclick="alert('Great! Looking forward to it!')">Yes</button>
+      <button class="no-button" onclick="alert('No worries, maybe another time!')">No</button>
+    </div>
+  </div>
+
+</body>
+</html>
